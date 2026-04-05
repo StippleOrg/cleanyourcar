@@ -3,280 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanyourCar | Premium Mobile Detailing Dallas</title>
-    <meta name="description" content="Professional mobile car detailing in Dallas. We come to your home or office in Highland Park, Uptown, and Downtown. Book your showroom shine today.">
+    <title>Cleanyourcar | Dallas Premier Mobile Detailing & Car Care</title>
+    <meta name="description" content="Professional mobile detailing delivered to your door in Dallas, Highland Park, and Preston Hollow. Premium car cleaning for busy professionals.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lexend:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
-        .glass-nav { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+        h1, h2, h3, .font-lexend { font-family: 'Lexend', sans-serif; }
+        .hero-gradient { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&q=80&w=2000'); background-size: cover; background-position: center; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900">
 
     <!-- Navigation -->
-    <nav class="fixed w-full z-50 glass-nav border-b border-slate-200">
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center space-x-2">
-                    <div class="bg-blue-600 p-2 rounded-lg">
+                    <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                     </div>
-                    <span class="text-xl font-extrabold tracking-tight uppercase">Clean<span class="text-blue-600">your</span>Car</span>
+                    <span class="text-2xl font-bold tracking-tight text-slate-900">Cleanyourcar</span>
                 </div>
-                <div class="hidden md:flex space-x-8 font-medium text-sm">
-                    <a href="#services" class="hover:text-blue-600 transition">Services</a>
-                    <a href="#pricing" class="hover:text-blue-600 transition">Pricing</a>
-                    <a href="#reviews" class="hover:text-blue-600 transition">Reviews</a>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#services" class="text-sm font-semibold hover:text-blue-600 transition">Services</a>
+                    <a href="#why-us" class="text-sm font-semibold hover:text-blue-600 transition">Why Us</a>
+                    <a href="#testimonials" class="text-sm font-semibold hover:text-blue-600 transition">Testimonials</a>
+                    <a href="#book" class="bg-blue-600 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Book Your Clean</a>
                 </div>
-                <a href="#pricing" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-full font-bold text-sm transition shadow-lg shadow-blue-200 uppercase tracking-wider">Book Now</a>
+                <div class="md:hidden">
+                    <button class="text-slate-600 p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16m-7 6h7"></path></svg></button>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="pt-32 pb-20 lg:pt-48 lg:pb-32 bg-white relative overflow-hidden">
-        <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-blue-50 rounded-full blur-3xl opacity-50"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-            <div class="lg:flex items-center gap-12">
-                <div class="lg:w-1/2 text-center lg:text-left">
-                    <div class="inline-block px-4 py-1.5 mb-6 bg-blue-50 border border-blue-100 rounded-full text-blue-700 text-sm font-semibold tracking-wide uppercase">
-                        📍 Serving Greater Dallas & Park Cities
-                    </div>
-                    <h1 class="text-5xl lg:text-6xl font-extrabold leading-tight tracking-tighter mb-6">
-                        The <span class="text-blue-600">Showroom Shine</span> That Comes to You.
-                    </h1>
-                    <p class="text-xl text-slate-600 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                        Dallas’s premier mobile car detailing for busy professionals. At your home or office, we bring the sparkle back to your vehicle while you focus on what matters.
-                    </p>
-                    <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                        <a href="#pricing" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold text-lg transition shadow-xl shadow-blue-200">
-                            Book Your Clean Now
-                        </a>
-                        <a href="#services" class="px-8 py-4 bg-white border border-slate-200 hover:border-blue-600 text-slate-700 rounded-xl font-bold text-lg transition">
-                            View Service Tiers
-                        </a>
-                    </div>
-                    <div class="mt-10 flex items-center justify-center lg:justify-start space-x-6 text-sm text-slate-500 font-medium">
-                        <span class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg> Fully Insured</span>
-                        <span class="flex items-center"><svg class="w-4 h-4 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"></path></svg> 5-Star Rated</span>
-                    </div>
+    <section class="hero-gradient relative py-24 lg:py-44 flex items-center">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center lg:text-left">
+            <div class="lg:w-2/3">
+                <span class="inline-block py-1 px-4 rounded-full bg-blue-500/20 text-blue-400 text-xs font-bold tracking-widest uppercase mb-4 border border-blue-500/30">Dallas's #1 Rated Mobile Detailers</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                    Dallas’s Premier Mobile Detailing Delivered to Your Doorside.
+                </h1>
+                <p class="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl">
+                    Professional, high-end car cleaning for busy DFW professionals. We bring the showroom shine to your home or office in Highland Park, Preston Hollow, and beyond.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="#pricing" class="bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition text-center shadow-xl">See Pricing & Book</a>
+                    <a href="#services" class="bg-white/10 backdrop-blur text-white border border-white/20 px-8 py-4 rounded-xl text-lg font-bold hover:bg-white/20 transition text-center">View Services</a>
                 </div>
-                <div class="lg:w-1/2 mt-16 lg:mt-0">
-                    <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d59085?auto=format&fit=crop&q=80&w=1200" alt="Luxury car detailing" class="rounded-3xl shadow-2xl relative z-10">
-                        <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl z-20 border border-slate-100">
-                            <div class="flex items-center space-x-1 mb-2">
-                                <span class="text-yellow-400">★★★★★</span>
-                            </div>
-                            <p class="italic text-sm text-slate-600">"Total game changer for my Tesla."</p>
+                <p class="mt-6 text-slate-300 text-sm flex items-center justify-center lg:justify-start">
+                    <svg class="w-5 h-5 text-yellow-400 mr-2" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                    Rated 4.9/5 by 500+ DFW Owners
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">The Gold Standard of Mobile Care</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Experience a premium service that treats your vehicle like the investment it is.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Mobile Convenience</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">We come to your home or office anywhere in the Dallas metroplex. Save hours of your weekend.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Eco-Friendly Precision</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Advanced steam and waterless tech that protects your paint while honoring local water conservation.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Asset Protection</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Specialized Texas heat-shield wax and interior UV protection designed for the DFW climate.</p>
+                </div>
+                <div class="p-8 rounded-2xl bg-slate-50 border border-slate-100 hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Maintenance Plans</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Join our monthly membership for a constant showroom finish without ever lifting a finger.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section id="testimonials" class="py-24 bg-slate-900 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8">Trusted by Dallas Luxury Vehicle Owners</h2>
+                    <div class="bg-slate-800 p-8 rounded-2xl border-l-4 border-blue-500">
+                        <div class="flex mb-4">
+                            <svg class="w-5 h-5 text-yellow-400 fill-current ml-0.5" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400 fill-current ml-0.5" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400 fill-current ml-0.5" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400 fill-current ml-0.5" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-5 h-5 text-yellow-400 fill-current ml-0.5" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features -->
-    <section id="services" class="py-24 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-3xl lg:text-4xl font-extrabold mb-4">Premium Care, Delivered</h2>
-                <p class="text-slate-600">We've refined our process to respect your time and your investment. Serving Dallas's elite with unmatched attention to detail.</p>
-            </div>
-            <div class="grid md:grid-cols-3 gap-10">
-                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-lg transition">
-                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-4">On-Site Convenience</h3>
-                    <p class="text-slate-600 leading-relaxed">We service you at your convenience in 75201, 75202, Highland Park, University Park, and Lakewood. No driving, no waiting.</p>
-                </div>
-                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-lg transition">
-                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 13l4 4L19 7"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-4">Eco-Friendly Precision</h3>
-                    <p class="text-slate-600 leading-relaxed">Premium, pH-neutral products that protect your high-end paintwork and the environment. Showroom shine without the chemicals.</p>
-                </div>
-                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-lg transition">
-                    <div class="w-14 h-14 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-4">Expert Technicians</h3>
-                    <p class="text-slate-600 leading-relaxed">Fully insured and background-checked professionals. You can trust us with your keys and your most valuable assets.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing -->
-    <section id="pricing" class="py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-3xl lg:text-4xl font-extrabold mb-4">Select Your Maintenance Tier</h2>
-                <p class="text-slate-600">Consistent excellence, tailored to your vehicle's needs.</p>
-            </div>
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Tier 1 -->
-                <div class="border border-slate-200 p-8 rounded-3xl flex flex-col">
-                    <h3 class="text-lg font-bold mb-2 uppercase tracking-wide">The Express Refresh</h3>
-                    <div class="mb-6">
-                        <span class="text-4xl font-extrabold">$85</span><span class="text-slate-500"> / flat</span>
-                    </div>
-                    <ul class="mb-10 space-y-4 text-slate-600 flex-grow">
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Exterior Foam Wash</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Interior Vacuum</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Window Streak-Free Finish</li>
-                        <li class="flex items-center"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Wheel & Tire Dressing</li>
-                    </ul>
-                    <button class="w-full py-4 border-2 border-slate-900 rounded-xl font-bold hover:bg-slate-900 hover:text-white transition">Select This Package</button>
-                </div>
-                <!-- Tier 2 -->
-                <div class="bg-slate-900 text-white p-8 rounded-3xl flex flex-col scale-105 shadow-2xl relative">
-                    <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase">Most Popular</div>
-                    <h3 class="text-lg font-bold mb-2 uppercase tracking-wide">The Executive Detail</h3>
-                    <div class="mb-6">
-                        <span class="text-4xl font-extrabold">$150</span><span class="text-slate-400"> / flat</span>
-                    </div>
-                    <ul class="mb-10 space-y-4 text-slate-300 flex-grow">
-                        <li class="flex items-center text-white font-medium"><svg class="w-4 h-4 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Deep Steam Clean</li>
-                        <li class="flex items-center text-white font-medium"><svg class="w-4 h-4 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Leather Treatment</li>
-                        <li class="flex items-center text-white font-medium"><svg class="w-4 h-4 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Hand Wax & Buff</li>
-                        <li class="flex items-center text-white font-medium"><svg class="w-4 h-4 mr-3 text-blue-500" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Odor Removal</li>
-                    </ul>
-                    <button class="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition shadow-lg shadow-blue-500/30">Select This Package</button>
-                </div>
-                <!-- Tier 3 -->
-                <div class="border border-slate-200 p-8 rounded-3xl flex flex-col">
-                    <h3 class="text-lg font-bold mb-2 uppercase tracking-wide">The Dallas Signature</h3>
-                    <div class="mb-6">
-                        <span class="text-4xl font-extrabold">$275</span><span class="text-slate-500"> / flat</span>
-                    </div>
-                    <ul class="mb-10 space-y-4 text-slate-600 flex-grow">
-                        <li class="flex items-center font-semibold"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Full Clay Bar Treatment</li>
-                        <li class="flex items-center font-semibold"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Ceramic Sealant (6 mo)</li>
-                        <li class="flex items-center font-semibold"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Engine Bay Clean</li>
-                        <li class="flex items-center font-semibold"><svg class="w-4 h-4 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"></path></svg> Full Restoration Focus</li>
-                    </ul>
-                    <button class="w-full py-4 border-2 border-slate-900 rounded-xl font-bold hover:bg-slate-900 hover:text-white transition">Select This Package</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Proof -->
-    <section id="reviews" class="py-24 bg-blue-600">
-        <div class="max-w-7xl mx-auto px-4 text-white">
-            <div class="grid lg:grid-cols-2 gap-16 items-center">
-                <div>
-                    <h2 class="text-4xl font-extrabold mb-8">Trusted by 300+ Dallas Residents</h2>
-                    <div class="space-y-8">
-                        <div class="bg-blue-500/50 p-8 rounded-2xl border border-blue-400 shadow-xl">
-                            <p class="text-xl font-medium mb-4 italic">"Best detailing in the 75201 area. They cleaned my Tesla while I was in meetings—total game changer for my schedule."</p>
-                            <div class="flex items-center">
-                                <div class="w-12 h-12 bg-blue-300 rounded-full mr-4 overflow-hidden">
-                                    <img src="https://i.pravatar.cc/150?u=12" alt="User">
-                                </div>
-                                <div>
-                                    <p class="font-bold">Uptown Dallas Executive</p>
-                                    <p class="text-blue-200 text-sm">Tesla Model S Owner</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bg-blue-500/50 p-8 rounded-2xl border border-blue-400 shadow-xl">
-                            <p class="text-xl font-medium mb-4 italic">"Professional, punctual, and my SUV looks brand new. Perfect for our family cars in Lakewood."</p>
-                            <div class="flex items-center">
-                                <div class="w-12 h-12 bg-blue-300 rounded-full mr-4 overflow-hidden">
-                                    <img src="https://i.pravatar.cc/150?u=18" alt="User">
-                                </div>
-                                <div>
-                                    <p class="font-bold">Lakewood Resident</p>
-                                    <p class="text-blue-200 text-sm">Lexus GX Owner</p>
-                                </div>
+                        <p class="text-xl italic mb-6">"Cleanyourcar is a lifesaver. They handle my luxury SUV while I’m in back-to-back meetings in Uptown—flawless every single time."</p>
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center font-bold text-lg">SJ</div>
+                            <div class="ml-4">
+                                <p class="font-bold">Sarah J.</p>
+                                <p class="text-slate-400 text-sm">University Park, Dallas</p>
                             </div>
                         </div>
                     </div>
+                    <div class="mt-10">
+                        <a href="#book" class="inline-block bg-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition shadow-xl">Join 500+ Happy Clients</a>
+                    </div>
                 </div>
-                <div class="text-center lg:text-left">
-                    <h3 class="text-6xl font-black mb-6">4.9/5</h3>
-                    <p class="text-2xl font-light mb-10 text-blue-100">Average rating from verified customers across Highland Park and Downtown.</p>
-                    <a href="#pricing" class="inline-block px-10 py-5 bg-white text-blue-600 font-bold text-xl rounded-2xl shadow-2xl hover:bg-slate-50 transition transform hover:-translate-y-1">
-                        Join 300+ Happy Customers
-                    </a>
+                <div class="lg:w-1/2 grid grid-cols-2 gap-4">
+                    <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800" alt="Detailing Service" class="rounded-2xl shadow-lg mt-12">
+                    <img src="https://images.unsplash.com/photo-1599256621730-535171e28e50?auto=format&fit=crop&q=80&w=800" alt="Cleaning Service" class="rounded-2xl shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1552930294-6b595f4c2974?auto=format&fit=crop&q=80&w=800" alt="Clean interior" class="rounded-2xl shadow-lg -mt-12">
+                    <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&q=80&w=800" alt="Polishing" class="rounded-2xl shadow-lg">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FAQ -->
+    <!-- FAQ Section -->
     <section class="py-24 bg-slate-50">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-extrabold mb-12">Common Questions</h2>
-            <div class="space-y-4 text-left">
-                <details class="bg-white rounded-2xl border border-slate-200 p-6 cursor-pointer" open>
-                    <summary class="font-bold text-lg">Do I need to provide a water source?</summary>
-                    <p class="mt-4 text-slate-600">No. Our mobile units are fully self-contained with their own purified water supply and whisper-quiet power generators.</p>
-                </details>
-                <details class="bg-white rounded-2xl border border-slate-200 p-6 cursor-pointer">
-                    <summary class="font-bold text-lg">What happens if it rains?</summary>
-                    <p class="mt-4 text-slate-600">We monitor the Dallas weather closely. If rain is expected, we offer a 24-hour rescheduling window or can work in your home garage/parking structure.</p>
-                </details>
-                <details class="bg-white rounded-2xl border border-slate-200 p-6 cursor-pointer">
-                    <summary class="font-bold text-lg">Is my area covered?</summary>
-                    <p class="mt-4 text-slate-600">We primarily serve the Greater Dallas area, including Downtown, Uptown (75201/75202), Highland Park, University Park, and Lakewood. Contact us for locations further out.</p>
-                </details>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Frequently Asked Questions</h2>
             </div>
-            <div class="mt-12">
-                <a href="mailto:hello@cleanyourcar.com" class="text-blue-600 font-bold underline underline-offset-4">Still Have Questions? Email us today</a>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-lg mb-2">Which areas in Dallas do you serve?</h3>
+                    <p class="text-slate-600">We provide mobile services across the entire Dallas area, with primary focus on Highland Park, University Park, Preston Hollow, Lakewood, and Uptown.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-lg mb-2">How long does a detailing take?</h3>
+                    <p class="text-slate-600">Depending on the package, our service typically takes between 2 to 4.5 hours. We ensure every inch of your vehicle is perfected.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-lg mb-2">What is your rain policy?</h3>
+                    <p class="text-slate-600">If rain is forecasted, we offer free rescheduling. If you have a covered garage at your home or office, we can usually proceed as planned.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                    <h3 class="font-bold text-lg mb-2">What is the pricing per clean?</h3>
+                    <p class="text-slate-600">Our premium cleans start at $149 for sedan maintenance and scale up based on vehicle size and the intensity of the detailing required.</p>
+                </div>
+            </div>
+            <div class="mt-12 text-center">
+                <p class="text-slate-500 mb-4 text-sm">Have more questions?</p>
+                <a href="#" class="text-blue-600 font-bold hover:underline">Contact our Support Center</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="book" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-blue-600 rounded-3xl p-10 md:p-20 text-center text-white relative overflow-hidden">
+                <div class="relative z-10">
+                    <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Ready for a Spotless Ride?</h2>
+                    <p class="text-xl mb-10 text-blue-100 max-w-2xl mx-auto">
+                        Don’t waste your weekend at a car wash. Experience the Cleanyourcar difference today. Professional results, at your doorstep.
+                    </p>
+                    <a href="#" class="inline-block bg-white text-blue-600 px-10 py-5 rounded-full text-xl font-bold hover:bg-slate-100 transition shadow-2xl">Get Started Now</a>
+                </div>
+                <!-- Abstract circles -->
+                <div class="absolute -top-24 -left-24 w-64 h-64 bg-blue-500/30 rounded-full blur-3xl"></div>
+                <div class="absolute -bottom-24 -right-24 w-64 h-64 bg-blue-500/30 rounded-full blur-3xl"></div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-slate-900 text-white py-16">
-        <div class="max-w-7xl mx-auto px-4">
-            <div class="grid md:grid-cols-4 gap-12 mb-12">
-                <div class="col-span-2">
-                    <div class="flex items-center space-x-2 mb-6">
-                        <div class="bg-blue-600 p-2 rounded-lg">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        </div>
-                        <span class="text-xl font-extrabold uppercase">Clean<span class="text-blue-600">your</span>Car</span>
-                    </div>
-                    <p class="text-slate-400 max-w-sm mb-6">Redefining the car care experience for Dallas's most ambitious professionals with premium mobile detailing service.</p>
-                    <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition"><span class="sr-only">Instagram</span> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
-                        <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition"><span class="sr-only">Facebook</span> <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg></a>
-                    </div>
+    <footer class="bg-white py-12 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center space-x-2 mb-8">
+                <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center">
+                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
-                <div>
-                    <h4 class="font-bold mb-6">Service Areas</h4>
-                    <ul class="space-y-4 text-slate-400 text-sm">
-                        <li>Highland Park</li>
-                        <li>University Park</li>
-                        <li>Lakewood</li>
-                        <li>Uptown / Downtown</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold mb-6">Contact Info</h4>
-                    <ul class="space-y-4 text-slate-400 text-sm">
-                        <li>Dallas, TX</li>
-                        <li>hello@cleanyourcar.com</li>
-                        <li>(214) 555-0123</li>
-                    </ul>
-                </div>
+                <span class="text-xl font-bold tracking-tight text-slate-900">Cleanyourcar</span>
             </div>
-            <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
-                <p>&copy; 2024 CleanyourCar Mobile Detailing. All rights reserved.</p>
-                <p class="mt-2 md:mt-0 italic tracking-tighter">
-                    Built by <a href='https://stipple.sh' class="underline hover:text-white">Stipple.sh</a>
-                </p>
+            <p class="text-slate-500 text-sm mb-4">Serving the Greater Dallas Area & DFW Metroplex.</p>
+            <div class="flex justify-center space-x-6 mb-8 text-sm font-semibold text-slate-600">
+                <a href="#" class="hover:text-blue-600">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-600">Terms of Service</a>
+                <a href="#" class="hover:text-blue-600">Instagram</a>
             </div>
+            <p class="text-slate-400 text-xs mb-4">&copy; 2025 Cleanyourcar. All rights reserved.</p>
+            <p class="text-slate-400 text-[10px] uppercase tracking-widest">Built by <a href='https://stipple.sh' class="underline">Stipple.sh</a></p>
         </div>
     </footer>
+
 </body>
 </html>
